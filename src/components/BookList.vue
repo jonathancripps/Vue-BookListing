@@ -1,5 +1,5 @@
 <template>
-    
+    <h1>{{ title }}</h1>
 </template>
 
 <script>
@@ -7,7 +7,7 @@ export default {
     name: 'BookList',
     data() {
         return {
-        Title: 'All Books',
+        title: 'All Books',
         };
     }
 }
